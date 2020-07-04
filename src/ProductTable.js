@@ -7,7 +7,7 @@ const ProductTable = ({products}) => {
 	return(
 		<React.Fragment>
 			<table className="table">
-				<thead class="thead-dark">
+				<thead className="thead-dark">
 					<tr>
 					{Object.keys(products[0]).map(element => <th>{element}</th>)}			
 					</tr>
